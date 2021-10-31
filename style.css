@@ -1,18 +1,48 @@
+*{
+    --var-background-color: #363945;
+    --var-background-text-color:#508c60;
+    --var-background-color-body: #6a6f73;
+}
+
+body{
+    background-color: var(--var-background-color-body);
+}
+
+
 header,footer,navbar{
-    border: 1px grey solid;
-    border-radius: 3px;
+    border: 1px solid var(--var-background-text-color);
+    border-radius: 5px;
     text-align: center;
     height: 50px;
 }
 
+header{
+    position: sticky;
+    top:0;
+    background-color: var(--var-background-color);
+    color:var(--var-background-text-color);
+    padding-top: 25px;  
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid var(--var-background-text-color);
+}
+
 navbar{
     display: block;
+    background-color: black;
+    color:grey;
+}
+
+li{
+    float: left;
+    width: 25%;
+    padding-top: 15px;
+    
 }
 
 div{
-    border: 1px grey solid;
     border-radius: 3px;
-    margin: 20px 5px;
+    margin: 10px 5px;
     padding: 5px;;
 }
 
@@ -26,28 +56,28 @@ img{
 /*     margin: 0 10px; */
 }
 
-#prod{
-    background-color: bisque;
-}
 
-#staging{
-    background-color: darksalmon;
-}
-
-#administrative{
-    background-color: goldenrod;
-}
 
 .title{
-    background-color: darkslategray;
-    color:darkturquoise;
+    background-color: var(--var-background-color);
+    color: var(--var-background-text-color);
     font-weight: bold;
     text-align: center;
+    text-shadow: -1px 1px black;
+    border: 1px solid black;
+    /* border-color:var(--var-background-text-color); */
+    /* box-shadow: -1px 1px 1px black; */
+}
+
+.theme-container{
+    /* border: 1px solid black; */
+    box-shadow: -1px 1px 3px var(--var-background-color);
 }
 
 .flex-container{
     display: flex;
     flex-flow: row wrap;
+    flex-;
 }
 
 a{
@@ -59,8 +89,10 @@ a{
 }
 
 .child-flex-item:hover{
-    background-color: darkslategray;
-    color: darkturquoise;
+    background-color: var(--var-background-color);
+    color: var(--var-background-text-color);
+    box-shadow: -3px 2px 6px var(--var-background-text-color);
+    text-shadow: -2px 2px black;
     transition: ease-in-out 0.3s;
 
 }
