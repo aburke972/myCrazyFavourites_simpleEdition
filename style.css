@@ -1,0 +1,29 @@
+div{
+    border: 1px grey solid;
+    border-radius: 3px;
+    margin: 20px 5px;
+    padding: 5px;;
+}
+
+
+img{
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+
+#prod{
+    background-color: bisque;
+}
+
+#staging{
+    background-color: darksalmon;
+}
+
+#administrative{
+    background-color: goldenrod;
+}
+.flex-container{
+    display: flex;
+    flex-flow: row wrap;
+}
