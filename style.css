@@ -42,6 +42,7 @@ img{
     background-color: darkslategray;
     color:darkturquoise;
     font-weight: bold;
+    text-align: center;
 }
 
 .flex-container{
