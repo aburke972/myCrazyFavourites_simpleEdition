@@ -9,7 +9,10 @@ div{
 img{
     width: 20px;
     height: 20px;
-    float: left;
+    display: block;
+    margin: 0 auto;
+  /*   float: left; */
+/*     margin: 0 10px; */
 }
 
 #prod{
@@ -23,7 +26,29 @@ img{
 #administrative{
     background-color: goldenrod;
 }
+
+.title{
+    background-color: darkslategray;
+    color:darkturquoise;
+    font-weight: bold;
+}
+
 .flex-container{
     display: flex;
     flex-flow: row wrap;
+}
+
+a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color:inherit;
+    margin-top: 5px;
+}
+
+.child-flex-item:hover{
+    background-color: darkslategray;
+    color: darkturquoise;
+    transition: ease-in-out 0.3s;
+
 }
