@@ -1,3 +1,14 @@
+header,footer,navbar{
+    border: 1px grey solid;
+    border-radius: 3px;
+    text-align: center;
+    height: 50px;
+}
+
+navbar{
+    display: block;
+}
+
 div{
     border: 1px grey solid;
     border-radius: 3px;
