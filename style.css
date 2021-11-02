@@ -83,6 +83,7 @@ img{
     /* border: 1px solid black; */
     box-shadow: -1px 1px 3px var(--var-background-color);
     color: var(--var-text-color);
+    flex-grow: 1;
  
 }
 
