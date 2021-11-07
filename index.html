@@ -9,77 +9,160 @@
 </head>
 <body>
     <header>
-        HEADER
+        <h1 id="header">VMWARE TEAM</h1>
+        <nav>
+            <ul>
+                <li><a href="#production">Production</a></li>
+                <li><a href="#administrative">Administrative</a></li>
+                <li><a href="#workarea">Workarea</a></li>
+                <li><a href="#staging">Staging</a></li>
+            </ul>
+        </nav>
     </header>
-    <navbar>
-        NAVBAR
-    </navbar>
-    <div class="title">Production links</div>
-    <div id="prod" class="flex-container">
-
-        <div id="template" class="flex-item child-container">
-            <h1>Topic title</h1>
-            <h2>Topic item</h2>
-            <a href="http://google" target="_blank">Test URL</a>
-            <img class="icon" src="img/bitbucket.png"  alt="bitbucket">
+    <div id="main" class="flex-container">
+        <div id="production" class="theme-container">
+            <div class="title">Production </div>
+                <div id="production" class="flex-container">
+                <div class="block flex-item child-container" >
+                    <div class="title">Dev tools</div>
+                    <div id="dev-tools" class="child-container">
+                            <div class="child-flex-item">
+                                <img class="icon" src="img/vro.png" alt="bitbucket">
+                                <a href="http://google" target="_blank">vRO</a>
+                            </div>
+                            <div class="child-flex-item">
+                                <img class="icon" src="img/ansible.png" alt="ansible">
+                                <a href="http://google" target="_blank">Ansible</a>
+                            </div>
+                            <div class="child-flex-item">
+                                <img class="icon" src="img/bitbucket.png" alt="bitbucket">
+                                <a href="http://google" target="_blank">Bitbucket</a>
+                            </div>
+                            <div class="child-flex-item">
+                                <img class="icon" src="img/kibana.png" alt="kibana">
+                                <a href="http://google" target="_blank">Kibana</a>
+                            </div>
+                    </div>
+                </div>
+                <div class="block flex-item child-container">
+                    <div class="title">Robotics</div>
+                    <div id="robotics" class="child-container">
+                        <div class="child-flex-item">
+                            <img class="icon" src="img/vro.png" alt="bitbucket">
+                            <a href="http://google" target="_blank">Playground</a>
+                        </div>
+                        <div class="child-flex-item">
+                            <img class="icon" src="img/ansible.png" alt="bitbucket">
+                            <a href="http://google" target="_blank">Ansible</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div id="dev" class="flex-item child-container">
-            <h1>Topic title</h1>
-            <h2>Topic item</h2>
-            <a href="http://google" target="_blank">Test URL</a>
-            <img class="icon" src="img/bitbucket.png" alt="bitbucket">
+        <div class="theme-container">
+            <div class="title">Administrative </div>
+            <div id="administrative" class="flex-container">
+                <div class="block flex-item child-container" >
+                    <div class="title">Permissions</div>
+                    <div id="permissions" class="child-container">
+                            <div class="child-flex-item">
+                                <img class="icon" src="img/vro.png" alt="sailpoint">
+                                <a href="http://google" target="_blank">Sailpoint</a>
+                            </div>
+                            <div class="child-flex-item">
+                                <img class="icon" src="img/ansible.png" alt="ldap">
+                                <a href="http://google" target="_blank">ldapTools</a>
+                            </div>
+                    </div>
+                </div>
+                <div class="block flex-item child-container">
+                    <div class="title">Duties</div>
+                    <div id="duties" class="child-container">
+                        <div class="child-flex-item">
+                            <img class="icon" src="img/vro.png" alt="soplanning">
+                            <a href="http://google" target="_blank">soPlanning</a>
+                        </div>
+                        <div class="child-flex-item">
+                            <img class="icon" src="img/ansible.png" alt="clarity">
+                            <a href="http://google" target="_blank">Clarity</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div id="template" class="flex-item child-container">
-            <h1>Topic title</h1>
-            <h2>Topic item</h2>
-            <a href="http://google" target="_blank">Test URL</a>
-            <img class="icon" src="img/bitbucket.png"  alt="bitbucket">
+        <div class="theme-container">
+            <div class="title">Workarea </div>
+            <div id="workarea" class="flex-container">
+                <div class="block flex-item child-container" >
+                    <div class="title">HVD</div>
+                    <div id="dev-tools" class="child-container">
+                            <div class="child-flex-item">
+                                <img class="icon" src="img/citrix.png" alt="citrix">
+                                <a href="http://google" target="_blank">VPN</a>
+                            </div>
+                            <div class="child-flex-item">
+                                <img class="icon" src="img/citrix.png" alt="citrix">
+                                <a href="http://google" target="_blank">Internal</a>
+                            </div>
+                            <div class="child-flex-item">
+                                <img class="icon" src="img/citrix.png" alt="citrix">
+                                <a href="http://google" target="_blank">Internet</a>
+                            </div>
+                    </div>
+                </div>
+                <div class="block flex-item child-container">
+                    <div class="title">Secrets</div>
+                    <div id="robotics" class="child-container">
+                        <div class="child-flex-item">
+                            <img class="icon" src="img/vro.png" alt="bitbucket">
+                            <a href="http://google" target="_blank">CyberArk</a>
+                        </div>
+                        <div class="child-flex-item">
+                            <img class="icon" src="img/ansible.png" alt="bitbucket">
+                            <a href="http://google" target="_blank">Ansible</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-    <div class="title">Staging links</div>
-    <div id="staging" class="flex-container">
-        <div id="template" class="flex-item child-container">
-            <h1>Topic title</h1>
-            <h2>Topic item</h2>
-            <a href="http://google" target="_blank">Test URL</a>
-            <img class="icon" src="img/bitbucket.png"  alt="bitbucket">
-        </div>
-        <div id="dev" class="flex-item child-container">
-            <h1>Topic title</h1>
-            <h2>Topic item</h2>
-            <a href="http://google" target="_blank">Test URL</a>
-            <img class="icon" src="img/bitbucket.png" alt="bitbucket">
-        </div>
-        <div id="template" class="flex-item child-container">
-            <h1>Topic title</h1>
-            <h2>Topic item</h2>
-            <a href="http://google" target="_blank">Test URL</a>
-            <img class="icon" src="img/bitbucket.png"  alt="bitbucket">
-        </div>
-    </div>
-    <div class="title">Administrative links</div>
-    <div id="administrative" class="flex-container">
-        <div id="template" class="flex-item child-container">
-            <h1>Topic title</h1>
-            <h2>Topic item</h2>
-            <a href="http://google" target="_blank">Test URL</a>
-            <img class="icon" src="img/bitbucket.png"  alt="bitbucket">
-        </div>
-        <div id="dev" class="flex-item child-container">
-            <h1>Topic title</h1>
-            <h2>Topic item</h2>
-            <a href="http://google" target="_blank">Test URL</a>
-            <img class="icon" src="img/bitbucket.png" alt="bitbucket">
-        </div>
-        <div id="template" class="flex-item child-container">
-            <h1>Topic title</h1>
-            <h2>Topic item</h2>
-            <a href="http://google" target="_blank">Test URL</a>
-            <img class="icon" src="img/bitbucket.png"  alt="bitbucket">
+        <div class="theme-container">
+            <div class="title">Staging </div>
+            <div id="staging" class="flex-container">
+                <div class="block flex-item child-container" >
+                    <div class="title">Dev tools</div>
+                    <div id="dev-tools" class="child-container">
+                        <div class="child-flex-item">
+                            <img class="icon" src="img/vro.png" alt="bitbucket">
+                            <a href="http://google" target="_blank">vRO HVDs</a>
+                        </div>
+                        <div class="child-flex-item">
+                            <img class="icon" src="img/vro.png" alt="bitbucket">
+                            <a href="http://google" target="_blank">vRO</a>
+                        </div>
+                        <div class="child-flex-item">
+                            <img class="icon" src="img/ansible.png" alt="bitbucket">
+                            <a href="http://google" target="_blank">Ansible</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="block flex-item child-container">
+                    <div class="title">Robotics</div>
+                    <div id="robotics" class="child-container">
+                        <div class="child-flex-item">
+                            <img class="icon" src="img/vro.png" alt="Playground">
+                            <a href="http://google" target="_blank">Playground</a>
+                        </div>
+                        <div class="child-flex-item">
+                            <img class="icon" src="img/ansible.png" alt="bitbucket">
+                            <a href="http://google" target="_blank">Ansible</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <footer>
-        FOOTER
+        <a href="#header">Top</a>
     </footer>
 </body>
 </html>
