@@ -6,6 +6,10 @@
     <title>My favourites</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet"> 
 </head>
 <body>
     <header>
@@ -16,13 +20,15 @@
                 <li><a href="#administrative">Administrative</a></li>
                 <li><a href="#workarea">Workarea</a></li>
                 <li><a href="#staging">Staging</a></li>
+                <li><a href="#documentation">Documentation</a></li>
             </ul>
         </nav>
     </header>
+    <div id="dummy"></div>
     <div id="main" class="flex-container">
         <div id="production" class="theme-container">
             <div class="title">Production </div>
-                <div id="production" class="flex-container">
+                <div class="flex-container">
                 <div class="block flex-item child-container" >
                     <div class="title">Dev tools</div>
                     <div id="dev-tools" class="child-container">
@@ -57,11 +63,20 @@
                         </div>
                     </div>
                 </div>
+                <div class="block flex-item child-container">
+                    <div class="title">Inventory</div>
+                    <div id="Inventory" class="child-container">
+                        <div class="child-flex-item">
+                            <img class="icon" src="img/vro.png" alt="bitbucket">
+                            <a href="http://google" target="_blank">VPIC</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="theme-container">
+        <div id="administrative" class="theme-container">
             <div class="title">Administrative </div>
-            <div id="administrative" class="flex-container">
+                <div class="flex-container">
                 <div class="block flex-item child-container" >
                     <div class="title">Permissions</div>
                     <div id="permissions" class="child-container">
@@ -88,11 +103,37 @@
                         </div>
                     </div>
                 </div>
+                <div class="block flex-item child-container">
+                    <div class="title">Network-Tufin</div>
+                    <div id="network" class="child-container">
+                        <div class="child-flex-item">
+                            <img class="icon" src="img/vro.png" alt="network">
+                            <a href="http://google" target="_blank">EMEA</a>
+                        </div>
+                        <div class="child-flex-item">
+                            <img class="icon" src="img/ansible.png" alt="clarity">
+                            <a href="http://google" target="_blank">AMER</a>
+                        </div>
+                        <div class="child-flex-item">
+                            <img class="icon" src="img/ansible.png" alt="clarity">
+                            <a href="http://google" target="_blank">APAC</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="block flex-item child-container">
+                    <div class="title">Safe / Access</div>
+                    <div id="network" class="child-container">
+                        <div class="child-flex-item">
+                            <img class="icon" src="img/vro.png" alt="network">
+                            <a href="http://google" target="_blank">CyberArk</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="theme-container">
+        <div id="workarea" class="theme-container">
             <div class="title">Workarea </div>
-            <div id="workarea" class="flex-container">
+            <div class="flex-container">
                 <div class="block flex-item child-container" >
                     <div class="title">HVD</div>
                     <div id="dev-tools" class="child-container">
@@ -125,9 +166,9 @@
                 </div>
             </div>
         </div>
-        <div class="theme-container">
+        <div id="staging" class="theme-container">
             <div class="title">Staging </div>
-            <div id="staging" class="flex-container">
+            <div class="flex-container">
                 <div class="block flex-item child-container" >
                     <div class="title">Dev tools</div>
                     <div id="dev-tools" class="child-container">
@@ -142,6 +183,50 @@
                         <div class="child-flex-item">
                             <img class="icon" src="img/ansible.png" alt="bitbucket">
                             <a href="http://google" target="_blank">Ansible</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="block flex-item child-container">
+                    <div class="title">Robotics</div>
+                    <div id="robotics" class="child-container">
+                        <div class="child-flex-item">
+                            <img class="icon" src="img/vro.png" alt="Playground">
+                            <a href="http://google" target="_blank">Playground</a>
+                        </div>
+                        <div class="child-flex-item">
+                            <img class="icon" src="img/ansible.png" alt="bitbucket">
+                            <a href="http://google" target="_blank">Ansible</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="block flex-item child-container">
+                    <div class="title">Inventory</div>
+                    <div id="Inventory" class="child-container">
+                        <div class="child-flex-item">
+                            <img class="icon" src="img/vro.png" alt="bitbucket">
+                            <a href="http://google" target="_blank">VPIC</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="documentation" class="theme-container">
+            <div class="title">Documentation </div>
+            <div class="flex-container">
+                <div class="block flex-item child-container" >
+                    <div class="title">Dev tools</div>
+                    <div id="dev-tools" class="child-container">
+                        <div class="child-flex-item">
+                            <img class="icon" src="img/vro.png" alt="bitbucket">
+                            <a href="http://google" target="_blank">Confluence Paris</a>
+                        </div>
+                        <div class="child-flex-item">
+                            <img class="icon" src="img/vro.png" alt="bitbucket">
+                            <a href="http://google" target="_blank">Confluence Madrid</a>
+                        </div>
+                        <div class="child-flex-item">
+                            <img class="icon" src="img/ansible.png" alt="bitbucket">
+                            <a href="http://google" target="_blank">VPIC</a>
                         </div>
                     </div>
                 </div>
