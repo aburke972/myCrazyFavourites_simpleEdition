@@ -6,11 +6,11 @@
     --var-prod-background-color: #292c29;
     --var-prod-background-text-color:#c95330;
     box-sizing: border-box;
-    font-size: 1rem;
 }
 
 body{
     background-color: var(--var-background-color-body);
+    font-size: 1.2rem;
 }
 
 header,footer{
@@ -25,7 +25,7 @@ h1{
     padding-top: 10px;
     text-shadow: -2px 2px 1px var(--var-background-text-color);
     color: greenyellow;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-family: 'Indie Flower', cursive;
     f/* ont-family: 'Luckiest Guy', cursive; */
 
@@ -96,13 +96,13 @@ img{
 }
 
 footer{
-    position: sticky;
+    /* position: sticky; */
     bottom:0;
     height: 50px;
     background-color: black;
 }
 footer a{
-    font-size: 2rem;
+    font-size: 2em;
     color:var(--var-background-text-color);
 }
 
